@@ -1,0 +1,71 @@
+<!-- Sign-up&in -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/sign_up_in"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/sign_up_in"
+ />
+
+
+<!-- drawable/sign_up_in.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1400dp"
+android:height="1400dp"
+android:viewportWidth="1400"
+android:viewportHeight="1400"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1400V1400H0V0Z"
+/>
+
+<group
+android:translateX="-0.832"
+android:translateY="-0.361"
+android:pivotX="700"
+android:pivotY="700"
+android:scaleX="3.511"
+android:scaleY="3.511"
+android:rotation="-1.049"
+>
+
+<path
+android:pathData="M0 0V1400H1400V0"
+>
+
+<aapt:attr name="android:fillColor">
+
+<gradient
+android:type="radial"
+android:centerX="700"
+android:centerY="700"
+android:gradientRadius="350"
+>
+
+<item
+android:color="#2E5765"
+android:offset="0.422"
+/>
+
+<item
+android:color="#A5654B"
+android:offset="1"
+/>
+
+</gradient>
+
+</aapt:attr>
+
+</path>
+
+</group>
+
+</group>
+
+</vector>
